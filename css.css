@@ -22,6 +22,7 @@ body {
 	display: flex;
 	align-items: center;
     justify-content: center;
+	flex-direction: column;
     background-color: #2b353e;
 }
 
@@ -49,4 +50,5 @@ span {
     text-shadow: 1px 1px 0px black;
     transition: 0.3s;
     transform: scale(0.01);
+	font-size: 1em;
 }
