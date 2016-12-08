@@ -1,8 +1,8 @@
 {
     "room":                     "Kégli Stúdió",
     "author":                   "This file is a modified. Original file ( https://code.radiant.dj/radiant.json ) made by Origin",
-    "icon":                     "https://anvilofthomas.github.io/icon.png",
-    "css":                      "https://anvilofthomas.github.io/plugdj.css",
+    "icon":                     "https://anvilofthomas.github.io/plugdj/icon.png",
+    "css":                      "https://anvilofthomas.github.io/plugdj/plugdj.css",
     "rules": {
         "allowAutorespond":     true,
         "allowAutowoot":        true,

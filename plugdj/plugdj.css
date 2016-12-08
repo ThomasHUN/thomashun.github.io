@@ -12,7 +12,7 @@ Original file: https://cdn.radiant.dj/rcs/rs_room.css
 #playback .background img {
     position: absolute;
     top: 0;
-    content:url("https://anvilofthomas.github.io/videoframe.png");
+    content:url("https://anvilofthomas.github.io/plugdj/videoframe.png");
 }
 
 #user-lists .list.staff .group {
