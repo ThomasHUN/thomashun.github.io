@@ -22,13 +22,14 @@ Original file: https://cdn.radiant.dj/rcs/rs_room.css
 }
 
 .msg .from .icon-chat-host {
+    background:url("") !important;
     background-image: url(https://anvilofthomas.github.io/plugdj/icon.png) !important;
     background-size: contain !important;
     background-repeat: no-repeat !important;
     background-position: center center !important;
 }
 
-#chat .from.staff .text {
+#chat .from.staff .text [class^="4006924-"] {
   color:#C59840;
 }
 
