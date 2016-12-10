@@ -10,6 +10,11 @@ Original file: https://cdn.radiant.dj/rcs/rs_room.css
     height: 500% !important;
 }*/
 
+#chat [data-cid^="4006924-"] .badge-box i {
+    background-image: url("https://anvilofthomas.github.io/plugdj/thomasdude.png");
+    background-size: cover;
+}
+
 #playback .background img {
     position: absolute;
     top: 0;

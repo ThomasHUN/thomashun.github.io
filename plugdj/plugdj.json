@@ -16,7 +16,7 @@
     "ccc": {
         "admin":                "#F15454",
         "ambassador":           "#84B423",
-        "host":                 null,
+        "host":                 "#C59840",
         "cohost":               "#F3508F",
         "manager":              "#F3508F",
         "bouncer":              "#F3508F",
@@ -31,7 +31,7 @@
         "playback":             null,
         "admin":                "https://cdn.radiant.dj/rcs/icons/radiant/admin.png",
         "ambassador":           "https://cdn.radiant.dj/rcs/icons/radiant/ambassador.png",
-        "host":                 null,
+        "host":                 "https://anvilofthomas.github.io/plugdj/icon.png",
         "cohost":               "https://cdn.radiant.dj/rcs/icons/radiant/cohost.png",
         "manager":              "https://cdn.radiant.dj/rcs/icons/radiant/manager.png",
         "bouncer":              "https://cdn.radiant.dj/rcs/icons/radiant/bouncer.png",
