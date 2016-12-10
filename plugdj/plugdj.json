@@ -21,14 +21,14 @@
         "manager":              "#F3508F",
         "bouncer":              "#F3508F",
         "rdj":                  "#5DB4FF",
-        "subscriber":           "#A1A6B3",
+        "subscriber":           "#C59840",
         "silversubscriber":     "#B8B8B8",
         "friend":               "#34A3BF",
         "user":                 "#8B92A3"
     },
     "images": {
         "background":           null,
-        "playback":             null,
+        "playback":             "https://anvilofthomas.github.io/plugdj/videoframe.png",
         "admin":                "https://cdn.radiant.dj/rcs/icons/radiant/admin.png",
         "ambassador":           "https://cdn.radiant.dj/rcs/icons/radiant/ambassador.png",
         "host":                 "https://anvilofthomas.github.io/plugdj/icon.png",

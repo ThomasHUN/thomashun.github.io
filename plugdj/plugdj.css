@@ -15,11 +15,24 @@ Original file: https://cdn.radiant.dj/rcs/rs_room.css
     background-size: cover;
 }
 
-#playback .background img {
+#chat .from.dj .un, #chat .from.staff .un {
+    background: -webkit-gradient(linear, left, right, from(#AC76FF), to(#C59840));
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.msg .from .icon-chat-host {
+    background-image: url(https://anvilofthomas.github.io/plugdj/icon.png) !important;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/*#playback .background img {
     position: absolute;
     top: 0;
     content: url("https://anvilofthomas.github.io/plugdj/videoframe.png");
-}
+}*/
 
 #user-lists .list.staff .group {
     background: linear-gradient(to right, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 1) 100%) !important;
