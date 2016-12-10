@@ -16,16 +16,20 @@ Original file: https://cdn.radiant.dj/rcs/rs_room.css
 }
 
 #chat .from.dj .un, #chat .from.staff .un {
-    background: -webkit-gradient(linear, left, right, from(#AC76FF), to(#C59840));
+    background: -webkit-gradient(linear, left top, right bottom, from(#AC76FF), to(#C59840));
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
 }
 
 .msg .from .icon-chat-host {
     background-image: url(https://anvilofthomas.github.io/plugdj/icon.png) !important;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+}
+
+#chat .from.staff .text {
+  color:#C59840;
 }
 
 /*#playback .background img {
