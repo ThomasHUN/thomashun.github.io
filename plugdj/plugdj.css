@@ -28,8 +28,7 @@ Original file: https://cdn.radiant.dj/rcs/rs_room.css
     background-repeat: no-repeat !important;
     background-position: center center !important;
 }
-
-#chat .from.staff .text [class^="4006924-"] {
+#chat [data-cid^="4006924-"] .msg .from .un {
   color:#C59840;
 }
 
