@@ -36,18 +36,6 @@ body {
     box-shadow: 0px 0px 0px 1px #f7d854, 0px 0px 0px 7px #e6c63b inset, 0px 0px 0px 11px #a27f2e inset, 0px 0px 0px 31px #ff2222 inset, 0px 0px 0px 54px #ffffff inset, 5px 5px 0px -3px black;
 }
 
-.thing:hover {
-    box-shadow: 0px 0px 0px 1px #f7d854, 0px 0px 0px 7px #e6c63b inset, 0px 0px 0px 11px #a27f2e inset, 0px 0px 0px 31px #ff2222 inset, 0px 0px 0px 54px #ffffff inset, 5px 5px 0px 1px black;
-}
-
-.discordlink:hover+.thingy {
-    transform: scale(1);
-}
-
-a.discordlink {
-    border-radius: 333px;
-}
-
 .thingy {
     padding-top: 10px;
     color: white;
@@ -55,4 +43,16 @@ a.discordlink {
     transition: 0.3s;
     transform: scale(0.01);
     font-size: 1em;
+}
+
+.thing:hover {
+    box-shadow: 0px 0px 0px 1px #f7d854, 0px 0px 0px 7px #e6c63b inset, 0px 0px 0px 11px #a27f2e inset, 0px 0px 0px 31px #ff2222 inset, 0px 0px 0px 54px #ffffff inset, 5px 5px 0px 1px black;
+}
+
+.discordlink {
+    border-radius: 333px;
+}
+
+.discordlink:hover+.thingy {
+    transform: scale(1);
 }
