@@ -1,9 +1,10 @@
 body {
     background-color: #131313;
     margin: auto;
+    padding: 1em;
+    max-width: 960px;
 }
 
 .organism {
-    margin: 1em;
     background-color: #1b1b1b;
 }
