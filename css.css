@@ -17,13 +17,17 @@ html {
 }
 
 body {
-    margin: 0;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     background-color: #2b353e;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    max-width: 45em;
+    margin: auto;
+    padding: 0 2%;
 }
 
 .thing {
@@ -43,6 +47,7 @@ body {
     transition: 0.3s;
     transform: scale(0.01);
     font-size: 1em;
+    display: block;
 }
 
 .thing:hover {
