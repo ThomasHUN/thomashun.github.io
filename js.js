@@ -1,16 +1,5 @@
-function shuffle(arr) {
-    var i,
-        j,
-        temp;
-    for (i = arr.length - 1; i > 0; i--) {
-        j = Math.floor(Math.random() * (i + 1));
-        temp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = temp;
-    }
-    return arr;
-};
+var bs = ["360 No Scope","420 Blaze It","322 Solo","60 Frames Per Second"];
 
-var a = [1, 2, 3, 4, 5, 6, 7, 8];
-var b = shuffle(a);
-console.log(b);
+var rbs = Math.Random(bs);
+
+console.log(rbs[0]);
