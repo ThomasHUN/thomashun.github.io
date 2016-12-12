@@ -1,13 +1,16 @@
-(function () {
-  'use strict';
+function shuffle(arr) {
+    var i,
+        j,
+        temp;
+    for (i = arr.length - 1; i > 0; i--) {
+        j = Math.floor(Math.random() * (i + 1));
+        temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
+    return arr;
+};
 
-  var shuffle = require('./').knuthShuffle
-    , a = [2,11,37,42]
-    , b
-    ;
-
-  // The shuffle modifies the original array
-  // calling a.slice(0) creates a copy, which is assigned to b
-  b = shuffle(a.slice(0));
-  console.log(b);
-}());
+var a = [1, 2, 3, 4, 5, 6, 7, 8];
+var b = shuffle(a);
+console.log(b);
