@@ -1,7 +1,9 @@
-body{
-  background-color: rgb(46, 46, 46);
+body, html {
   margin: 0;
+  overflow: hidden;
+  background-color: #111;
 }
-canvas{
-  background-color: rgb(0, 8, 27);
+
+canvas {
+
 }
